@@ -34,6 +34,8 @@ useEffect(()=>{
   setEmail("")
   setLname("")
   setPassword("")
+  setMark("")
+  setMark2('')
   }
   return (
     <form onSubmit={handleSubmit}>
@@ -90,7 +92,7 @@ useEffect(()=>{
               required
             />
             <p style={{ fontSize: '9px' }}>
-              open Chrome. At the top right, click More . Click More tools Clear{' '}
+              open Chrome. At the top right, click More . Click More tools Clear
             </p>
           </span>
           <Custombutton txt="submite" className="btn" />
